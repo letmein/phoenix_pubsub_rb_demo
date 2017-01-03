@@ -1,0 +1,30 @@
+GIT
+  remote: https://github.com/letmein/phoenix_pubsub_rb
+  revision: f81fdc73945a4b9a45e4fefaa3c81a9d3adf66e7
+  ref: f81fdc73945a4b9a45e4fefaa3c81a9d3adf66e7
+  specs:
+    phoenix_pubsub (0.2.0)
+      erlang-etf (= 1.1.1)
+      redis (~> 3.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    binary-protocol (0.0.1)
+    erlang-etf (1.1.1)
+      binary-protocol
+      erlang-terms (>= 1.1.0)
+    erlang-terms (1.1.0)
+    redis (3.3.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  phoenix_pubsub!
+
+RUBY VERSION
+   ruby 2.3.1p112
+
+BUNDLED WITH
+   1.13.6
